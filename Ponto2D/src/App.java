@@ -31,8 +31,7 @@ public class App {
         Ponto2D ponto2d = new Ponto2D(x, y);
 
         System.out.println("\n---- PONTO 2D ----");
-        System.out.println("X: " + ponto2d.getX());
-        System.out.println("Y: " + ponto2d.getY());
+        System.out.println("Ponto (" + ponto2d.getX() + ", " + ponto2d.getY() + ")");
 
     }
 }
