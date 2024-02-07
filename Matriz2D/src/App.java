@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 class Matriz2D {
-    public int m[][] = new int[2][2];
+    private int[][] m;
 
-    Matriz2D(int m[][]){
-        this.m[2][2] = m[2][2];
+    Matriz2D(){
+        m = new int[2][2];
     }
 
     public void imprimir() {
@@ -33,5 +33,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         Matriz2D matriz2d = new Matriz2D();
+
+        matriz2d.imprimir();
     }
 }
