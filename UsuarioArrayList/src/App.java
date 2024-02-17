@@ -31,7 +31,7 @@ public class App {
         ArrayList<Aluno> listaDeAlunos = new ArrayList<>();
 
         // Adicionando alunos
-        listaDeAlunos.add("Renan", "Cardoso", 18);
+        listaDeAlunos.add(new Aluno("Renan", "Cardoso", 18));
 
     }
 }
